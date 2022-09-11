@@ -8,6 +8,14 @@
 
             
             Console.WriteLine("Max number is "+ Max_number<int>.printMaximumNumbers(a,b,c));
+
+
+            Console.WriteLine("_________________________________________________________");
+
+            float x = 10.2F; float y = 50.2F; float z = 30.3F;
+
+
+            Console.WriteLine("Max number is " + Max_number<float>.printMaximumNumbers(x, y, z));
         }
     }
 }   
