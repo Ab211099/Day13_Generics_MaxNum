@@ -27,13 +27,14 @@ namespace Find_Max_num
             Console.WriteLine("max string number is " + Find_Max_String<string>.printMaximumNumbers("a","ab","abc"));
 
             Console.WriteLine("_________________________________________________________");
-
             Console.WriteLine("########Refactor_1########");
 
             Refactor1 obj = new Refactor1();
 
-            
-            Console.WriteLine("max refactor num is " + obj.Max<string>("abhi", "abhis", "abhishek"));       
+
+            Console.WriteLine("max refactor num is " + obj.Max<string>("abhi", "abhis", "abhishek"));
+
+
         }
     }
 }   
